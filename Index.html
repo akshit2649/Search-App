@@ -31,9 +31,9 @@
           <span class="yellow">e</span>
           <span class="red exclaim">!</span>
         </div>
-        <form id="searchBar" class="searchBar" role="search">
-          <input id="search" type="text" autocomplete="off" role="searchbox" />
-          <div id="clear" class="none button clear" role="button" tabindex="0">
+        <form id="searchBar" class="searchBar">
+          <input id="search" type="text" autocomplete="off" />
+          <div id="clear" class="none button clear" tabindex="0">
             <i class="fas fa-times"></i>
           </div>
           <button id="searchButton" class="button searchButton" type="submit">
@@ -43,13 +43,17 @@
       </section>
       <section class="results">
         <div class="statsBar">
-          <div id="stats" class="stats" div>
+          <div id="stats" class="stats"></div>
         </div>
         <div id="searchResults" class="searchResults"></div>
       </section>
     </main>
     <footer>
-        <p><span aria-hidden="true">&lt;&lt;</span> Powered by <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a> <span>&gt;&gt;</span></p>
+      <p>
+        <span>&lt;&lt;</span> Powered by
+        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+        <span>&gt;&gt;</span>
+      </p>
     </footer>
   </body>
 </html>
